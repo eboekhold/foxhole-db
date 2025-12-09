@@ -26,22 +26,37 @@ def read_health():
 # Refinery
 @app.get("/refinery")
 def read_refinery_recipes():
-  with open('data/json2/items_refinable.json') as fp:
-    data = json.load(fp)
+  output_data = {}
 
-    output_data = {
-      recipe['Refined Item Name']: {
-        'Input Resource': recipe['Source Item Name'],
-        'Input Amount': 1 / recipe['YieldModifier'],
-        'Output Resource': recipe['Refined Item Name'],
-        'Output Amount': 1,
-        'Time': ((60.0 / recipe['YieldModifier']) / recipe['SpeedModifier']) * 1000,
-        'Max Refined Item Count': recipe['MaxRefinedItemCount']
+  # Try loading preprocessed data first
+  try:
+    with open('public/refinery.json') as fp:
+      output_data = json.load(fp)
+
+  # If not found, process from datamines
+  except FileNotFoundError:
+    print("Preprocessed Refinery recipe list not found. Processing...")
+
+    with open('data/json2/items_refinable.json') as fp:
+      data = json.load(fp)
+
+      output_data = {
+        recipe['Refined Item Name']: {
+          'Input Resource': recipe['Source Item Name'],
+          'Input Amount': 1 / recipe['YieldModifier'],
+          'Output Resource': recipe['Refined Item Name'],
+          'Output Amount': 1,
+          'Time': ((60.0 / recipe['YieldModifier']) / recipe['SpeedModifier']) * 1000,
+          'Max Refined Item Count': recipe['MaxRefinedItemCount']
+        }
+        for _, recipe in data.items()
       }
-      for _, recipe in data.items()
-    }
+    
+    # and write result to be used again
+    with open('public/refinery.json', 'w') as file:
+      json.dump(output_data, file, indent=2)
 
-    return output_data
+  return output_data
 
 # Factory
 def without_empty_inputs(recipe):
@@ -57,29 +72,44 @@ def without_empty_inputs(recipe):
 
 @app.get("/factory")
 def read_factory_recipes():
-  with open('data/json2/items_factory.json') as fp:
-    data = json.load(fp)
+  output_data = {}
 
-    output_data = {
-      recipe['Name']: {
-        'Faction': "Colonial" if recipe['Faction Variant'] == "EFactionId::Colonials" else "Warden" if recipe['Faction Variant'] == "EFactionId::Wardens" else "Both",
-        'Category': re.sub(r"(\w)([A-Z])", r"\1 \2", recipe['Type'].replace('EFactoryQueueType::', '')),
-        'Input Resources': without_empty_inputs(recipe),
-        'Quantity Per Crate': recipe['QuantityPerCrate'],
-        'Crate Production Time': recipe['CrateProductionTime'] * 1000,
-        'Time Per Item': 1000 * recipe['CrateProductionTime'] / recipe['QuantityPerCrate']
+  # Try loading preprocessed data first
+  try:
+    with open('public/factory.json') as fp:
+      output_data = json.load(fp)
+  
+  # If not found, process from datamines
+  except FileNotFoundError:
+    print("Preprocessed Factory recipe list not found. Processing...")
+
+    with open('data/json2/items_factory.json') as fp:
+      data = json.load(fp)
+
+      output_data = {
+        recipe['Name']: {
+          'Faction': "Colonial" if recipe['Faction Variant'] == "EFactionId::Colonials" else "Warden" if recipe['Faction Variant'] == "EFactionId::Wardens" else "Both",
+          'Category': re.sub(r"(\w)([A-Z])", r"\1 \2", recipe['Type'].replace('EFactoryQueueType::', '')),
+          'Input Resources': without_empty_inputs(recipe),
+          'Quantity Per Crate': recipe['QuantityPerCrate'],
+          'Crate Production Time': recipe['CrateProductionTime'] * 1000,
+          'Time Per Item': 1000 * recipe['CrateProductionTime'] / recipe['QuantityPerCrate']
+        }
+        for _, recipe in data.items()
       }
-      for _, recipe in data.items()
-    }
 
-    # This one is missing in the datamines
-    output_data['A3 Harpa Fragmentation Grenade'] = {
-      'Faction': "Warden",
-      'Category': "Small Arms",
-      'Input Resources': { "BMat": 100, "EMat": 40 },
-      'Quantity Per Crate': 20,
-      'Crate Production Time': 100 * 1000,
-      'Time Per Item': 1000 * 100 / 20
-    }
+      # This one is missing in the datamines
+      output_data['A3 Harpa Fragmentation Grenade'] = {
+        'Faction': "Warden",
+        'Category': "Small Arms",
+        'Input Resources': { "BMat": 100, "EMat": 40 },
+        'Quantity Per Crate': 20,
+        'Crate Production Time': 100 * 1000,
+        'Time Per Item': 1000 * 100 / 20
+      }
 
-    return output_data
+    # and write result to be used again
+    with open('public/factory.json', 'w') as file:
+      json.dump(output_data, file, indent=2)
+
+  return output_data
