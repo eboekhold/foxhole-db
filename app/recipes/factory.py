@@ -1,16 +1,7 @@
 import json
 import re
 
-def factory_without_empty_inputs(recipe):
-  output = {}
-  possible_input_resources = ['BMat', 'EMat', 'RMat', 'HEMat']
-
-  for resource in possible_input_resources:
-    if recipe[resource]:
-      output[resource] = recipe[resource]
-  
-  return output
-
+from .shared import condense_inputs
 
 async def read_factory_recipes():
   output_data = {}
@@ -31,7 +22,7 @@ async def read_factory_recipes():
         recipe['Name']: {
           'Faction': "Colonial" if recipe['Faction Variant'] == "EFactionId::Colonials" else "Warden" if recipe['Faction Variant'] == "EFactionId::Wardens" else "Both",
           'Category': re.sub(r"(\w)([A-Z])", r"\1 \2", recipe['Type'].replace('EFactoryQueueType::', '')),
-          'Input Resources': factory_without_empty_inputs(recipe),
+          'Input Resources': condense_inputs(['BMat', 'EMat', 'RMat', 'HEMat'], recipe),
           'Quantity Per Crate': recipe['QuantityPerCrate'],
           'Crate Production Time': recipe['CrateProductionTime'] * 1000,
           'Time Per Item': 1000 * recipe['CrateProductionTime'] / recipe['QuantityPerCrate']
