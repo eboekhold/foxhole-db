@@ -19,6 +19,7 @@ async def read_factory_recipes():
 
       output_data = {
         recipe['Name']: {
+          'Output Internal ID': internal_id,
           'Faction': faction(recipe['Faction Variant']),
           'Category': parse_internal_category('EFactoryQueueType::', (recipe['Type'])),
           'Input Resources': condense_inputs(['BMat', 'EMat', 'RMat', 'HEMat'], recipe),
@@ -26,7 +27,7 @@ async def read_factory_recipes():
           'Crate Production Time': recipe['CrateProductionTime'] * 1000,
           'Time Per Item': 1000 * recipe['CrateProductionTime'] / recipe['QuantityPerCrate']
         }
-        for _, recipe in data.items()
+        for internal_id, recipe in data.items()
       }
 
       # This one is missing in the datamines

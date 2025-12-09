@@ -19,14 +19,16 @@ async def read_refinery_recipes():
 
       output_data = {
         recipe['Refined Item Name']: {
+          'Input Internal ID': recipe['Source Item ID'],
           'Input Resource': recipe['Source Item Name'],
           'Input Amount': 1 / recipe['YieldModifier'],
+          'Output Internal ID': internal_id,
           'Output Resource': recipe['Refined Item Name'],
           'Output Amount': 1,
           'Time': ((60.0 / recipe['YieldModifier']) / recipe['SpeedModifier']) * 1000,
           'Max Refined Item Count': recipe['MaxRefinedItemCount']
         }
-        for _, recipe in data.items()
+        for internal_id, recipe in data.items()
       }
     
     # and write result to be used again
