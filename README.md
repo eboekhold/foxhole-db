@@ -16,7 +16,7 @@ uv sync
 
 ## Running the server
 ```
-fastapi dev main.py
+fastapi dev app/main.py
 ```
 Runs the server on localhost on port 8000.
 
