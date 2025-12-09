@@ -3,6 +3,11 @@ import re
 
 from .shared import condense_inputs, faction, save
 
+def category(internal_string: str):
+  removed_prefix = internal_string.replace('EFactoryQueueType::', '')
+  insert_space_between_words = re.sub(r"(\w)([A-Z])", r"\1 \2", removed_prefix)
+  return insert_space_between_words
+
 async def read_factory_recipes():
   output_data = {}
 
@@ -21,7 +26,7 @@ async def read_factory_recipes():
       output_data = {
         recipe['Name']: {
           'Faction': faction(recipe['Faction Variant']),
-          'Category': re.sub(r"(\w)([A-Z])", r"\1 \2", recipe['Type'].replace('EFactoryQueueType::', '')),
+          'Category': category(recipe['Type']),
           'Input Resources': condense_inputs(['BMat', 'EMat', 'RMat', 'HEMat'], recipe),
           'Quantity Per Crate': recipe['QuantityPerCrate'],
           'Crate Production Time': recipe['CrateProductionTime'] * 1000,
