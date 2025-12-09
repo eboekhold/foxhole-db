@@ -1,7 +1,7 @@
 import json
 import re
 
-from .shared import condense_inputs
+from .shared import condense_inputs, faction
 
 async def read_factory_recipes():
   output_data = {}
@@ -20,7 +20,7 @@ async def read_factory_recipes():
 
       output_data = {
         recipe['Name']: {
-          'Faction': "Colonial" if recipe['Faction Variant'] == "EFactionId::Colonials" else "Warden" if recipe['Faction Variant'] == "EFactionId::Wardens" else "Both",
+          'Faction': faction(recipe['Faction Variant']),
           'Category': re.sub(r"(\w)([A-Z])", r"\1 \2", recipe['Type'].replace('EFactoryQueueType::', '')),
           'Input Resources': condense_inputs(['BMat', 'EMat', 'RMat', 'HEMat'], recipe),
           'Quantity Per Crate': recipe['QuantityPerCrate'],
