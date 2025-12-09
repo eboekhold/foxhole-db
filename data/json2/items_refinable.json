@@ -1,0 +1,83 @@
+{
+    "AluminumA":{
+        "Refined Item Name":"Aluminum Alloy",
+        "Source Item ID":"Aluminum",
+        "Source Item Name":"Aluminum",
+        "SpeedModifier":250.0,
+        "YieldModifier":1.0,
+        "MaxRefinedItemCount":1000,
+        "TransferStackSize":20
+    },
+    "Cloth":{
+        "Refined Item Name":"Basic Materials",
+        "Source Item ID":"Metal",
+        "Source Item Name":"Salvage",
+        "SpeedModifier":250.0,
+        "YieldModifier":0.5,
+        "MaxRefinedItemCount":12500,
+        "TransferStackSize":20
+    },
+    "CopperA":{
+        "Refined Item Name":"Copper Alloy",
+        "Source Item ID":"Copper",
+        "Source Item Name":"Copper",
+        "SpeedModifier":250.0,
+        "YieldModifier":1.0,
+        "MaxRefinedItemCount":1000,
+        "TransferStackSize":20
+    },
+    "Diesel":{
+        "Refined Item Name":"Diesel",
+        "Source Item ID":"Metal",
+        "Source Item Name":"Salvage",
+        "SpeedModifier":50.0,
+        "YieldModifier":0.1,
+        "MaxRefinedItemCount":6000,
+        "TransferStackSize":10
+    },
+    "Explosive":{
+        "Refined Item Name":"Explosive Powder",
+        "Source Item ID":"Metal",
+        "Source Item Name":"Salvage",
+        "SpeedModifier":32.0,
+        "YieldModifier":0.2,
+        "MaxRefinedItemCount":12000,
+        "TransferStackSize":100
+    },
+    "GroundMaterials":{
+        "Refined Item Name":"Gravel",
+        "Source Item ID":"Coal",
+        "Source Item Name":"Coal",
+        "SpeedModifier":250.0,
+        "YieldModifier":0.2,
+        "MaxRefinedItemCount":6000,
+        "TransferStackSize":20
+    },
+    "HeavyExplosive":{
+        "Refined Item Name":"Heavy Explosive Powder",
+        "Source Item ID":"Sulfur",
+        "Source Item Name":"Sulfur",
+        "SpeedModifier":20.0,
+        "YieldModifier":0.2,
+        "MaxRefinedItemCount":6000,
+        "TransferStackSize":20
+    },
+    "IronA":{
+        "Refined Item Name":"Iron Alloy",
+        "Source Item ID":"Iron",
+        "Source Item Name":"Iron",
+        "SpeedModifier":250.0,
+        "YieldModifier":1.0,
+        "MaxRefinedItemCount":1000,
+        "TransferStackSize":20
+    },
+    "Wood":{
+        "Refined Item Name":"Refined Materials",
+        "Source Item ID":"Components",
+        "Source Item Name":"Components",
+        "SpeedModifier":30.0,
+        "YieldModifier":0.05,
+        "MaxRefinedItemCount":6000,
+        "TransferStackSize":20
+    }
+}
