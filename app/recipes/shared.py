@@ -2,7 +2,7 @@
 
 save = True
 
-def condense_inputs(possible_inputs, recipe):
+def condense_inputs(possible_inputs: list[str], recipe: dict):
   output = {}
 
   for input in possible_inputs:
@@ -11,7 +11,7 @@ def condense_inputs(possible_inputs, recipe):
 
   return output
 
-def faction(internal_string):
+def faction(internal_string: str):
   if internal_string is not None:
     return internal_string.replace('EFactionId::', '')
   else:
