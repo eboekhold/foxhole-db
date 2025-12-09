@@ -14,3 +14,6 @@ uv sync
 ```
 fastapi dev main.py
 ```
+
+## Documentation
+Once the server is running, please visit `/docs` or `/redoc` to view the documentation.
