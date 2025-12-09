@@ -1,5 +1,7 @@
 import json
 
+from .shared import save
+
 async def read_refinery_recipes():
   output_data = {}
 
@@ -28,7 +30,8 @@ async def read_refinery_recipes():
       }
     
     # and write result to be used again
-    with open('public/refinery.json', 'w') as file:
-      json.dump(output_data, file, indent=2)
+    if save:
+      with open('public/refinery.json', 'w') as file:
+        json.dump(output_data, file, indent=2)
 
   return output_data

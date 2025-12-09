@@ -1,7 +1,7 @@
 import json
 import re
 
-from .shared import condense_inputs, faction
+from .shared import condense_inputs, faction, save
 
 async def read_factory_recipes():
   output_data = {}
@@ -41,7 +41,8 @@ async def read_factory_recipes():
       }
 
     # and write result to be used again
-    with open('public/factory.json', 'w') as file:
-      json.dump(output_data, file, indent=2)
+    if save:
+      with open('public/factory.json', 'w') as file:
+        json.dump(output_data, file, indent=2)
 
   return output_data

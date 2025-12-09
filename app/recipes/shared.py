@@ -1,5 +1,7 @@
 # Code shared by recipe processing code.
 
+save = True
+
 def condense_inputs(possible_inputs, recipe):
   output = {}
 
