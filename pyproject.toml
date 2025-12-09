@@ -1,0 +1,9 @@
+[project]
+name = "foxhole-db"
+version = "0.1.0"
+description = "Database of recipes for the game Foxhole"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.124.0",
+]
