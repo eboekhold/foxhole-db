@@ -1,3 +1,5 @@
+import re
+
 # Code shared by recipe processing code.
 
 save = True
@@ -16,3 +18,8 @@ def faction(internal_string: str):
     return internal_string.replace('EFactionId::', '')
   else:
     return "Both"
+
+def parse_internal_category(prefix: str, internal_string: str):
+  removed_prefix = internal_string.replace(prefix, '')
+  insert_space_between_words = re.sub(r"(\w)([A-Z])", r"\1 \2", removed_prefix)
+  return insert_space_between_words
