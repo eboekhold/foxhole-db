@@ -2,7 +2,7 @@ import re
 
 # Code shared by recipe processing code.
 
-save = True
+CACHE_RESULTS = True
 
 def condense_inputs(possible_inputs: list[str], recipe: dict):
   output = {}

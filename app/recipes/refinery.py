@@ -1,6 +1,6 @@
 import json
 
-from .shared import save
+from .shared import CACHE_RESULTS
 
 async def read_refinery_recipes():
   output_data = {}
@@ -32,7 +32,7 @@ async def read_refinery_recipes():
       }
     
     # and write result to be used again
-    if save:
+    if CACHE_RESULTS:
       with open('public/refinery.json', 'w') as file:
         json.dump(output_data, file, indent=2)
 

@@ -1,0 +1,744 @@
+{
+    "FacilityVehicleFactory1[ArtilleryFactory][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"TruckMultiC",
+        "Required Vehicle":"TruckC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"EmplacedMultiC",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"HalftrackMultiW",
+        "Required Vehicle":"HalftrackW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"HalftrackDefensiveC",
+        "Required Vehicle":"HalftrackC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"HalftrackArtilleryC",
+        "Required Vehicle":"HalftrackC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"HalftrackOffensiveW",
+        "Required Vehicle":"HalftrackW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"ScoutTankMultiW",
+        "Required Vehicle":"ScoutTankW",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"TanketteMultiC",
+        "Required Vehicle":"TanketteC",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"HalftrackTwinW",
+        "Required Vehicle":"HalftrackW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][09]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"LargeFieldMultiW",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[ArtilleryFactory][10]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ArtilleryFactory",
+        "Assembled Vehicle":"ArmoredCar2MultiW",
+        "Required Vehicle":"ArmoredCar2TwinW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"MaterialPlatform",
+        "Required Vehicle":"None",
+        "Production Time":15
+    },
+    "FacilityVehicleFactory1[Default][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"MotorcycleOffensiveC",
+        "Required Vehicle":"MotorcycleC",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[Default][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TruckMobilityC",
+        "Required Vehicle":"TruckC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TruckOffensiveC",
+        "Required Vehicle":"TruckC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TruckDefensiveW",
+        "Required Vehicle":"TruckW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TruckMobilityW",
+        "Required Vehicle":"TruckW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"SmallTrainEngine",
+        "Required Vehicle":"None",
+        "Production Time":900
+    },
+    "FacilityVehicleFactory1[Default][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"SmallTrainResource",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"SmallTrainMaterial",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][09]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"AmbulanceFlameC",
+        "Required Vehicle":"AmbulanceC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][10]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"AmbulanceFlameW",
+        "Required Vehicle":"AmbulanceW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][11]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"SmallTrainLiquid",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[Default][12]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"SmallTrainShipping",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"Harvester",
+        "Required Vehicle":"None",
+        "Production Time":900
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"ConstructionUtility",
+        "Required Vehicle":"Construction",
+        "Production Time":900
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"LandingCraftOffensiveC",
+        "Required Vehicle":"LandingCraftC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"FieldCannonDamageC",
+        "Required Vehicle":"FieldATC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"ScoutTankOffensiveW",
+        "Required Vehicle":"ScoutTankW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"FieldATDamageW",
+        "Required Vehicle":"FieldATW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"TrailerMaterial",
+        "Required Vehicle":"TrailerResource",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"TrailerLiquid",
+        "Required Vehicle":"TrailerResource",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"HeavyTruckC",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[LightVehicleAssembly][09]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"LightVehicleAssembly",
+        "Assembled Vehicle":"HeavyTruckW",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[MotorPool][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCarOffensiveC",
+        "Required Vehicle":"ArmoredCarC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCarTwinC",
+        "Required Vehicle":"ArmoredCarC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"TanketteOffensiveC",
+        "Required Vehicle":"TanketteC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"TanketteFlameC",
+        "Required Vehicle":"TanketteC",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[MotorPool][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ScoutVehicleUtilityC",
+        "Required Vehicle":"ScoutVehicleMobilityC",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[MotorPool][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ScoutVehicleOffensiveC",
+        "Required Vehicle":"ScoutVehicleMobilityC",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[MotorPool][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCarATW",
+        "Required Vehicle":"ArmoredCarW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCarMobilityW",
+        "Required Vehicle":"ArmoredCarW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCarFlameW",
+        "Required Vehicle":"ArmoredCarW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][09]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ArmoredCar2LargeW",
+        "Required Vehicle":"ArmoredCar2TwinW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[MotorPool][10]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ScoutVehicleOffensiveW",
+        "Required Vehicle":"ScoutVehicleW",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[MotorPool][11]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"ScoutVehicleUtilityW",
+        "Required Vehicle":"ScoutVehicleW",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[MotorPool][12]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"FieldAT2C",
+        "Required Vehicle":"FieldMGC",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[MotorPool][13]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"MotorPool",
+        "Assembled Vehicle":"FieldAT2W",
+        "Required Vehicle":"FieldMGW",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[RocketAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"RocketPartBottom",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory1[RocketAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"RocketPartCenter",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory1[RocketAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"RocketPartTop",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory1[RocketAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortConstructionPart",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[RocketAssembly][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortStructurePart",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[RocketAssembly][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortLRArtilleryPart",
+        "Required Vehicle":"None",
+        "Production Time":1500
+    },
+    "FacilityVehicleFactory1[RocketAssembly][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortIntelCenterPart",
+        "Required Vehicle":"None",
+        "Production Time":1500
+    },
+    "FacilityVehicleFactory1[RocketAssembly][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortWeatherStationPart",
+        "Required Vehicle":"None",
+        "Production Time":1500
+    },
+    "FacilityVehicleFactory1[RocketAssembly][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"RocketAssembly",
+        "Assembled Vehicle":"FortGarrisonStationPart",
+        "Required Vehicle":"None",
+        "Production Time":1500
+    },
+    "FacilityVehicleFactory1[ShipAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ShipAssembly",
+        "Assembled Vehicle":"ShipPart1",
+        "Required Vehicle":"None",
+        "Production Time":1500
+    },
+    "FacilityVehicleFactory1[ShipAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ShipAssembly",
+        "Assembled Vehicle":"ShipPart2",
+        "Required Vehicle":"None",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[ShipAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"ShipAssembly",
+        "Assembled Vehicle":"ShipPart3",
+        "Required Vehicle":"None",
+        "Production Time":43200
+    },
+    "FacilityVehicleFactory1[TankAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"DestroyerTankFlameW",
+        "Required Vehicle":"DestroyerTankW",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"LightTankFlameC",
+        "Required Vehicle":"LightTankC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[TankAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"LightTankOffensiveC",
+        "Required Vehicle":"LightTankC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[TankAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"LightTankMobilityC",
+        "Required Vehicle":"LightTankC",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[TankAssembly][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MediumTankOffensiveC",
+        "Required Vehicle":"MediumTankC",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MediumTank2TwinC",
+        "Required Vehicle":"MediumTank2C",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][06]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"EmplacedCannonLargeC",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[TankAssembly][07]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"LightTankDefensiveW",
+        "Required Vehicle":"LightTankW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[TankAssembly][08]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"LightTankArtilleryW",
+        "Required Vehicle":"LightTankW",
+        "Production Time":300
+    },
+    "FacilityVehicleFactory1[TankAssembly][09]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MediumTankSiegeW",
+        "Required Vehicle":"MediumTankW",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][10]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MediumTank2MultiW",
+        "Required Vehicle":"MediumTank2W",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][11]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"EmplacedATLargeW",
+        "Required Vehicle":"None",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[TankAssembly][12]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MediumTank2RangeW",
+        "Required Vehicle":"MediumTank2W",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[TankAssembly][13]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"TankAssembly",
+        "Assembled Vehicle":"MortarTankC",
+        "Required Vehicle":"LightTank2InfantryC",
+        "Production Time":180
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"MediumTankLargeC",
+        "Required Vehicle":"MediumTankC",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"MediumTank2IndirectW",
+        "Required Vehicle":"MediumTank2W",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"MediumTankATW",
+        "Required Vehicle":"MediumTankW",
+        "Production Time":600
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"LargeFieldATC",
+        "Required Vehicle":"FieldATC",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][04]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"LargeFieldCannonW",
+        "Required Vehicle":"FieldCannonW",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory1[WeaponsPlatformAssembly][05]":{
+        "Process Structure":"FacilityVehicleFactory1",
+        "Process Mod":"WeaponsPlatformAssembly",
+        "Assembled Vehicle":"LargeFieldMortarC",
+        "Required Vehicle":"FieldMortarC",
+        "Production Time":420
+    },
+    "FacilityVehicleFactory2[Default][00]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TrainEngine",
+        "Required Vehicle":"None",
+        "Production Time":21600
+    },
+    "FacilityVehicleFactory2[Default][01]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TrainCoal",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[Default][02]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TrainInfantry",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[Default][03]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TrainFlatbed",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[Default][04]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"TrainCaboose",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"SuperTankC",
+        "Required Vehicle":"None",
+        "Production Time":172800
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"SuperTankW",
+        "Required Vehicle":"None",
+        "Production Time":172800
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankC",
+        "Required Vehicle":"None",
+        "Production Time":64800
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankW",
+        "Required Vehicle":"None",
+        "Production Time":64800
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][04]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankATC",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][05]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankDefensiveW",
+        "Required Vehicle":"None",
+        "Production Time":79200
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][06]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankHeavyArtilleryC",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory2[HeavyTankAssembly][07]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"HeavyTankAssembly",
+        "Assembled Vehicle":"BattleTankHeavyArtilleryW",
+        "Required Vehicle":"None",
+        "Production Time":86400
+    },
+    "FacilityVehicleFactory2[TrainAssembly][00]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"TrainAssembly",
+        "Assembled Vehicle":"TrainCombatCarC",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[TrainAssembly][01]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"TrainAssembly",
+        "Assembled Vehicle":"TrainCombatCarW",
+        "Required Vehicle":"None",
+        "Production Time":1800
+    },
+    "FacilityVehicleFactory2[TrainAssembly][02]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"TrainAssembly",
+        "Assembled Vehicle":"TrainLRArtillery",
+        "Required Vehicle":"None",
+        "Production Time":259200
+    },
+    "FacilityVehicleFactory2[TrainAssembly][03]":{
+        "Process Structure":"FacilityVehicleFactory2",
+        "Process Mod":"TrainAssembly",
+        "Assembled Vehicle":"TrainHospital",
+        "Required Vehicle":"None",
+        "Production Time":129600
+    },
+    "FacilityVehicleFactory3[Default][00]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipBaseShip",
+        "Required Vehicle":"None",
+        "Production Time":14400
+    },
+    "FacilityVehicleFactory3[Default][01]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipResourceShip",
+        "Required Vehicle":"None",
+        "Production Time":14400
+    },
+    "FacilityVehicleFactory3[Default][02]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipStorageShip",
+        "Required Vehicle":"None",
+        "Production Time":28800
+    },
+    "FacilityVehicleFactory3[Default][03]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipDestroyerC",
+        "Required Vehicle":"None",
+        "Production Time":21600
+    },
+    "FacilityVehicleFactory3[Default][04]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipSubmarineW",
+        "Required Vehicle":"None",
+        "Production Time":21600
+    },
+    "FacilityVehicleFactory3[Default][05]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipBattleShipC",
+        "Required Vehicle":"None",
+        "Production Time":36000
+    },
+    "FacilityVehicleFactory3[Default][06]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipBattleShipW",
+        "Required Vehicle":"None",
+        "Production Time":36000
+    },
+    "FacilityVehicleFactory3[Default][07]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipDestroyerW",
+        "Required Vehicle":"None",
+        "Production Time":21600
+    },
+    "FacilityVehicleFactory3[Default][08]":{
+        "Process Structure":"FacilityVehicleFactory3",
+        "Process Mod":"Default",
+        "Assembled Vehicle":"LargeShipSubmarineC",
+        "Required Vehicle":"None",
+        "Production Time":21600
+    }
+}

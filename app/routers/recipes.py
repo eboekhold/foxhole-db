@@ -2,6 +2,7 @@ from fastapi import APIRouter
 
 from ..recipes.refinery import read_refinery_recipes
 from ..recipes.factory import read_factory_recipes
+from ..recipes.vehicles import read_vehicle_recipes
 
 router = APIRouter()
 
@@ -16,3 +17,7 @@ async def read_recipes_refinery():
 @router.get("/recipes/factory", tags=["recipes"])
 async def read_recipes_factory():
   return await read_factory_recipes()
+
+@router.get("/recipes/vehicles", tags=["recipes"])
+async def read_recipes_vehicles():
+  return await read_vehicle_recipes()

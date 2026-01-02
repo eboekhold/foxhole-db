@@ -4,6 +4,7 @@ JSON API for Foxhole recipes.
 Currently supported recipes:
 - Refinery
 - Factory
+- Vehicles
 
 ## Requirements
 - Python3
@@ -16,16 +17,16 @@ uv sync
 
 ## Running the server
 ```
-fastapi dev app/main.py
+uv run fastapi dev app/main.py
 ```
 Runs the server on localhost on port 8000.
 
 ## Documentation
 Once the server is running, please visit `localhost:8000/docs` or `localhost:8000/redoc` to view the API documentation.
 
-### Additional Documentation
-The API endpoints process the datamined data into more human readable JSON.
+Currently supported endpoints:
+- `/refinery`
+- `/factory`
+- `/vehicles`
 
-There is caching of these results into JSON files in the `/public` directory. Once cached, the API endpoints will just show these files instead of doing processing.
-
-Delete the files in `/public` if you want to run processing again (for example, if you have new datamined data).
+These endpoints are cached after first request and reused for all Nth requests after. Delete the corresponding files in the `/public` directory if you want to clean the cache. You can skip saving to cache with the `CACHE_RESULTS` flag in `recipes/shared.py`. (causing this flag to skip loading is a TODO)
